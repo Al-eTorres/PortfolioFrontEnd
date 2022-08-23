@@ -1,0 +1,30 @@
+nav{
+    background-color: transparent;
+}
+.list-group.list-group-horizontal{
+    margin-right: 10%;
+}
+.list-group-item{
+    padding-left: 5%;
+    background-color: transparent;
+    border: none;
+}
+
+div.banner img{
+    margin-top: -130px;
+}
+i{
+    color: rgb(62, 70, 80);
+}
+li.list-group-item i.fa-brands.fa-linkedin.fa-2xl:hover{
+    color: rgb(0, 132, 255);
+}
+li.list-group-item i.fa-brands.fa-square-facebook.fa-2xl:hover{
+    color: rgb(9, 3, 196);
+}
+li.list-group-item i.fa-brands.fa-square-github.fa-2xl:hover{
+    color: rgb(134, 2, 216);
+}
+li.list-group-item i.fa-solid.fa-user.fa-xl:hover{
+    color: rgb(250, 246, 252);
+}
