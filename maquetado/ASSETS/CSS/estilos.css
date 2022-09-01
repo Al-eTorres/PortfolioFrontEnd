@@ -1,5 +1,6 @@
+/* barra navegacion e iconos */
 nav{
-    background-color: transparent;
+    background: linear-gradient(6deg, rgb(3, 138, 131) 2%, rgb(10,5,5) 60%);
 }
 .list-group.list-group-horizontal{
     margin-right: 10%;
@@ -9,12 +10,18 @@ nav{
     background-color: transparent;
     border: none;
 }
-
-div.banner img{
-    margin-top: -130px;
+#yo-programo{
+    color: aliceblue;
+    margin-left: 130px;
+    margin-top: -50px;
 }
+.modal-backdrop{
+    z-index: 0;
+}
+
+/* color y hover de iconos */
 i{
-    color: rgb(62, 70, 80);
+    color: rgb(86, 102, 121);
 }
 li.list-group-item i.fa-brands.fa-linkedin.fa-2xl:hover{
     color: rgb(0, 132, 255);
@@ -25,6 +32,44 @@ li.list-group-item i.fa-brands.fa-square-facebook.fa-2xl:hover{
 li.list-group-item i.fa-brands.fa-square-github.fa-2xl:hover{
     color: rgb(134, 2, 216);
 }
-li.list-group-item i.fa-solid.fa-user.fa-xl:hover{
+li.list-group-item i.fa-solid.fa-user.fa-xl{
     color: rgb(250, 246, 252);
+}
+li.list-group-item i.fa-solid.fa-user.fa-xl:hover{
+    color: rgb(141, 206, 247);
+}
+
+
+/* iconos edicion */
+i.fa-regular.fa-camera.fa-2xl{
+    color: rgb(9, 5, 13);
+    float: right;
+    margin-top: 1%;
+    margin-right: 10%;
+   
+}
+
+/* seccion sobre mi */
+.sobre-mi{
+   
+}
+
+/* seccion skills */
+.skills{
+    color:azure;
+    margin-bottom: 5%;
+    background :linear-gradient(450deg,darkblue,black);
+}
+
+.item-skill{
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 25px;
+}
+.item-skill:last-child{
+    margin-bottom: 25%;
+}
+.Administracion{
+    margin-top: 150px;
+    text-align: center;
 }
