@@ -73,3 +73,11 @@ i.fa-regular.fa-camera.fa-2xl{
     margin-top: 150px;
     text-align: center;
 }
+
+/* botones admin */
+
+.btn-size{
+    width: 150px;
+    height: 70px;
+   
+}
