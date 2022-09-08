@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="ASSETS/CSS/estilos.css">
   </head>
 <body>
-  <header>
+  <header class="mb-5">
     <nav class="navbar fixed-top navbar-expand-lg navbar-light">
       <div class="container-fluid">
         <a class="navbar-brand" href="index.html">
@@ -51,179 +51,149 @@
             <!--Fin de modal-->
           </li>
         </ul>
+      </div>
     </nav>
     <!--Fin nav-->
-  </header>
-  <!--Fin header-->
-  <section class="Administracion">
-    <h2>Administracion</h2>
-    <div class=" banner-admin container">   
-      <div class="row">
-        <div class="col">
-
-        </div>
-        <div class="col mt-5">
-          <!-- Button trigger modal -->
-          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#banner">
-            Banner
-          </button>
-
-          <!-- Modal -->
-          <div class="modal fade" id="banner" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title" id="exampleModalLabel">Editar Banner</h5>
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+     
+    </header>
+    <!--Fin header-->
+    <div class="row">
+      <div class="col">
+        <h2 class="mt-5">Administracion</h2>
+      </div>
+    </div>
+  
+    
+    <div class="row mt-5 container text-center">
+      
+      <div class="col mt-5">
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#banner">
+          Banner
+        </button>
+        <!-- Modal -->
+        <div class="modal fade" id="banner" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Editar Banner</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <!--selector de imagen banner-->
+                <div class="mb-3">
+                  <label for="formFileSm" class="form-label">Seleccione imagen</label>
+                  <input class="form-control form-control-sm" id="formFileSm" type="file">
                 </div>
-                <div class="modal-body">
-                  <!--selector de imagen banner-->
-                  <div class="mb-3">
-                    <label for="formFileSm" class="form-label">Seleccione imagen</label>
-                    <input class="form-control form-control-sm" id="formFileSm" type="file">
-                  </div>
-                </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Eliminar</button>
-                  <button type="button" class="btn btn-primary">Guardar cambios</button>
-                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Eliminar</button>
+                <button type="button" class="btn btn-primary">Guardar cambios</button>
               </div>
             </div>
           </div>
         </div>
-        <div class="col">
-
-        </div>
       </div>
-    </div>
-
-    <div class="img-perfil container">   
-      <div class="row">
-        <div class="col">
-
-        </div>
-        <div class="col mt-5">
-          <!-- Button trigger modal -->
-          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#foto-perfil">
-            Foto perfil
-          </button>
-
-          <!-- Modal -->
-          <div class="modal fade" id="foto-perfil" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title" id="exampleModalLabel">Editar Foto</h5>
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    
+  
+      
+      <div class="col mt-5">
+        <!-- Button trigger modal peril-->
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#foto-perfil">
+          Foto perfil
+        </button>
+        <!-- Modal -->
+        <div class="modal fade" id="foto-perfil" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Editar Foto</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <!--selector de imagen perfil-->
+                <div class="mb-3">
+                  <label for="formFileSm" class="form-label">Seleccione foto</label>
+                  <input class="form-control form-control-sm" id="formFileSm" type="file">
                 </div>
-                <div class="modal-body">
-                  <!--selector de imagen perfil-->
-                  <div class="mb-3">
-                    <label for="formFileSm" class="form-label">Seleccione foto</label>
-                    <input class="form-control form-control-sm" id="formFileSm" type="file">
-                  </div>
-                </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Eliminar</button>
-                  <button type="button" class="btn btn-primary">Guardar cambios</button>
-                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Eliminar</button>
+                <button type="button" class="btn btn-primary">Guardar cambios</button>
               </div>
             </div>
           </div>
         </div>
-        <div class="col">
-
-        </div>
       </div>
-    </div>
-
-    <div class="datos-personales container">   
-      <div class="row">
-        <div class="col">
-
-        </div>
-        <div class="col mt-5">
-          <!-- Button trigger modal -->
-          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#datos-pers">
-            Datos personales
-          </button>
-
-          <!-- Modal -->
-          <div class="modal fade" id="datos-pers" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title" id="exampleModalLabel">Editar datos personales</h5>
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    
+        <!-- datos personales -->
+  
+      <div class="col mt-5">
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#datos-pers">
+          Datos personales
+        </button>
+        <!-- Modal -->
+        <div class="modal fade" id="datos-pers" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Editar datos personales</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <!--input nombre y apellido-->
+                <div class="col">
+                  <input type="text" class="form-control mb-3" placeholder="Nombre" aria-label="nombre">
                 </div>
-                <div class="modal-body">
-                  <!--input nombre y apellido-->
-                  <div class="col">
-                    <input type="text" class="form-control" placeholder="First name" aria-label="First name">
-                  </div>
-                  <div class="col">
-                    <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
-                  </div>
+                <div class="col">
+                  <input type="text" class="form-control" placeholder="Apellido" aria-label="apellido">
                 </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Eliminar</button>
-                  <button type="button" class="btn btn-primary">Guardar cambios</button>
-                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Eliminar</button>
+                <button type="button" class="btn btn-primary">Guardar cambios</button>
               </div>
             </div>
           </div>
         </div>
-        <div class="col">
-
-        </div>
       </div>
-    </div>
-
-    <div class=" acerca-de-mi container">   
-      <div class="row">
-        <div class="col">
-
-        </div>
-        <div class="col mt-5">
-          <!-- Button trigger modal -->
-          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#acerca">
-            Acerca de mi
-          </button>
-
-          <!-- Modal -->
-          <div class="modal fade" id="acerca" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title" id="exampleModalLabel">Editar Acerca de mi</h5>
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    
+      <!-- acerca de mi -->
+      
+      <div class="col mt-5">
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#acerca">
+          Acerca de mi
+        </button>
+        <!-- Modal -->
+        <div class="modal fade" id="acerca" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Editar Acerca de mi</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <!-- textArea sobre mi-->
+                <div class="mb-3">
+                  <label for="form-acerca" class="form-label"></label>
+                  <textarea class="form-control" id="form-acerca" rows="3"></textarea>
                 </div>
-                <div class="modal-body">
-                  <!--selector de imagen banner-->
-                  <div class="mb-3">
-                    <label for="form-acerca" class="form-label"></label>
-                    <textarea class="form-control" id="form-acerca" rows="3"></textarea>
-                  </div>
-                </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Eliminar</button>
-                  <button type="button" class="btn btn-primary">Guardar cambios</button>
-                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Eliminar</button>
+                <button type="button" class="btn btn-primary">Guardar cambios</button>
               </div>
             </div>
           </div>
         </div>
-        <div class="col">
-
-        </div>
       </div>
     </div>
 
-    <div class="experiencia container">   
-      <div class="row">
-        <div class="col">
-
-        </div>
+    <!-- experiencia -->
+    <div class="row container text-center">
+        
         <div class="col mt-5">
           <!-- Button trigger modal -->
           <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exper">
@@ -239,12 +209,12 @@
                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                  <!--experiencia-->
+                  <!-- logo empresa-->
                   <div class="mb-3">
                     <label for="form-img-experiencia" class="form-label">Seleccione foto de la empresa</label>
                     <input class="form-control form-control-sm" id="form-img-experiencia" type="file">
 
-                    <label for="form-titulo-empresa" class="form-label mt-3">Seleccione foto de la empresa</label>
+                    <label for="form-titulo-empresa" class="form-label mt-3">Editar nombre empresa</label>
                     <input type="text" class="form-control" id="form-titulo-empresa" placeholder="Titulo" >
 
                     <label for="form-experiencia" class="form-label">tareas</label>
@@ -259,13 +229,118 @@
             </div>
           </div>
         </div>
-        <div class="col">
 
-        </div>
-      </div>
-    </div>
-  </section>
+          <!-- educacion -->
     
+        <div class="col mt-5">
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#educacion">
+            Educación
+          </button>
+
+          <!-- Modal -->
+          <div class="modal fade" id="educacion" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Editar Educación</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <!-- logo escuela-->
+                  <div class="mb-3">
+                    <label for="form-img-edu" class="form-label">Seleccione logo de la institucion</label>
+                    <input class="form-control form-control-sm" id="form-img-experiencia" type="file">
+
+                    <label for="form-titulo-edu" class="form-label mt-3">Editar nombre institución</label>
+                    <input type="text" class="form-control" id="form-titulo-edu" placeholder="Titulo" >
+
+                    <label for="form-edu" class="form-label">Editar título carrera/curso/fecha finalización</label>
+                    <textarea class="form-control" id="form-edu" rows="3"></textarea>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Eliminar</button>
+                  <button type="button" class="btn btn-primary">Guardar cambios</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+          <!-- skills -->
+    
+       
+        <div class="col mt-5">
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#skills">
+            Mis habilidades
+          </button>
+
+          <!-- Modal -->
+          <div class="modal fade" id="skills" tabindex="-1" aria-labelledby="habilidades" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="habilidades">Editar habilidades</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <!--input nombre y apellido-->
+                  <div class="col">
+                    <input type="text" class="form-control mb-3" placeholder="Habilidad" aria-label="habilidad">
+                  </div>
+                  <div class="col">
+                    <input type="number" class="form-control" placeholder="Porcentaje" aria-label="porcentaje">
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Eliminar</button>
+                  <button type="button" class="btn btn-primary">Guardar cambios</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- proyect -->
+       
+        <div class="col mt-5">
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#proy">
+            Proyectos
+          </button>
+
+          <!-- Modal -->
+          <div class="modal fade" id="proy" tabindex="-1" aria-labelledby="label-proy" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="label-proy">Editar proyectos</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <!-- imagen proyecto -->
+                  <div class="mb-3">
+                    <label for="form-img-pro" class="form-label">Seleccione imagen del proyecto</label>
+                    <input class="form-control form-control-sm" id="form-img-pro" type="file">
+
+                    <label for="form-titulo-pro" class="form-label mt-3">Editar nombre del proyecto</label>
+                    <input type="text" class="form-control" id="form-titulo-pro" placeholder="Titulo" >
+
+                    <label for="form-pro" class="form-label">Descripción</label>
+                    <textarea class="form-control" id="form-pro" rows="3"></textarea>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Eliminar</button>
+                  <button type="button" class="btn btn-primary">Guardar cambios</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
   
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
